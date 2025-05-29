@@ -6,8 +6,8 @@
 
 proxy-providers:
 
-  火烧云:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+  糖果云:
+    url: "https://candytally.cc/tgyun_sub?token=d2b4f5166a5a36b5f666b63535e4901a"
     type: http
     interval: 86400
     health-check:
@@ -134,6 +134,8 @@ dns:
     - +.lan
     - +.local
     - geosite:cn
+# 糖果云    
+    - +.candytally.cc # 已替换为糖果云的域名
 # 快猫    
     - +.quickcht3.club
     - +.kuaimao2.club
